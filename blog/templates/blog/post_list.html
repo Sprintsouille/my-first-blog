@@ -4,9 +4,7 @@
     </head>
     <body>
         <div>
-        <p>Hi there!</p>
-        <!-- <p> est la balise pour les éléments de type paragraphe. </p> permet de fermer chaque paragraphe -->
-            <h1><a href="">Django Girls Blog</a></h1>
+            <h1><a href="/">Django Girls Blog</a></h1>
         </div>
 
         {% for post in posts %}
@@ -16,6 +14,5 @@
                 <p>{{ post.text|linebreaks }}</p>
             </div>
         {% endfor %}
-
     </body>
 </html> <!-- balise fermante -->
